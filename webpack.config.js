@@ -14,6 +14,15 @@ module.exports = {
     path:PATHS.build,
     filename : "bundle.js"
   },
+  module:{
+    loaders:[
+      {
+        test:/\.css$/,
+        loaders:["style", "css"],
+        include:PATHS.app
+      }
+    ]
+  },
   devServer:{
     historyApiFallback:true,
     hot:true,
