@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arno-bagbila/ziBlogHome/issues"
   },
-  "homepage": "https://github.com/arno-bagbila/ziBlogHome#readme"
+  "homepage": "https://github.com/arno-bagbila/ziBlogHome#readme",
+  "devDependencies": {
+    "webpack": "^1.12.9"
+  }
 }
